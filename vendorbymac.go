@@ -109,7 +109,6 @@ func (MacData *MacDB) Init(FileFull string, FilePrefix28 string) error {
 
 	MacData.Prefix28MacMap = OUIv28prefix
 	MacData.Initialized = true
-	fmt.Println(ouimap["00238d"])
 	return nil
 }
 
