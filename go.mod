@@ -1,4 +1,4 @@
-module gitlab.com/powerc-grp/VendorByMAC
+module github.com/OlegPowerC/VendorByMAC
 
 go 1.17
 
