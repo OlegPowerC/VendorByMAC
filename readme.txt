@@ -27,3 +27,7 @@ For example:
 TestedStruct.Init("oui2.txt", "oui.txt","oui38.txt")
 You can skip parce any file, provide empty string instead filename - example:
 TestedStruct.Init("", "oui.txt","oui28.txt")
+
+I found unknown MAC - 00a2.3ca0.2107
+I try to check it by: https://www.wireshark.org/tools/oui-lookup.html and got: (no matches)
+
