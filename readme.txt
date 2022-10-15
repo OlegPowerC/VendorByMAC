@@ -32,3 +32,7 @@ TestedStruct.Init("", "oui.txt","oui36.txt","iab.txt")
 I found unknown MAC - 00a2.3ca0.2107
 I try to check it by: https://www.wireshark.org/tools/oui-lookup.html and got: (no matches)
 
+Added JS code generator.
+It is used for make FireFox extension mactoven: https://addons.mozilla.org/ru/firefox/addon/mactoven/
+
+
