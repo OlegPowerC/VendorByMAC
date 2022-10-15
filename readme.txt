@@ -19,14 +19,15 @@ example:
 				Grand Prairie  TX  75050
 				US
 
-Function TestedStruct.Init() accept 3 parameters, first - custom DB filename, second - stndard DB filename
-and last - oui36 DB filename.
+iab.txt it is standard OUI database with ranges like oui36 (but can not be use for EUI-64), you can download it from https://standards-oui.ieee.org/iab/iab.txt
+
+Function TestedStruct.Init() accept 4 parameters, first - custom DB filename, stndard DB filename, oui36 DB filename, IAB DB filename
 All filename len must be minimum 5.
 
 For example:
-TestedStruct.Init("oui2.txt", "oui.txt","oui36.txt")
+TestedStruct.Init("oui2.txt", "oui.txt","oui36.txt","iab.txt")
 You can skip parce any file, provide empty string instead filename - example:
-TestedStruct.Init("", "oui.txt","oui36.txt")
+TestedStruct.Init("", "oui.txt","oui36.txt","iab.txt")
 
 I found unknown MAC - 00a2.3ca0.2107
 I try to check it by: https://www.wireshark.org/tools/oui-lookup.html and got: (no matches)
